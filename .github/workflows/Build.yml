@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore BootcampText4.sln
       
     - name: Build
-      run: dotnet build BootcampText4.csproj --no-restore
+      run: dotnet build BootcampText4.sln --no-restore
       
     - name: Test
-      run: dotnet test BootcampText4.csproj --no-build --verbosity normal
+      run: dotnet test BootcampText4.sln --no-build --verbosity normal
