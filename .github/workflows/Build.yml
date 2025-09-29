@@ -3,9 +3,9 @@ name: Bootcamp_Text_Workflow
 
 on:
   push:
-    branches: [ luch ]
+    branches: [ main ]
   pull_request:
-    branches: [ luch ]
+    branches: [ main ]
 
 jobs:
   build:
